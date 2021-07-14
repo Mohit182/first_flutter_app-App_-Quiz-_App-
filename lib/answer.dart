@@ -15,12 +15,14 @@ class Answer extends StatelessWidget {
         //   foregroundColor: MaterialStateProperty.all(Colors.yellow),
         // ),
         style: ElevatedButton.styleFrom(
-          primary: Colors.red,
-          onPrimary: Colors.yellow,
+          primary: Colors.lightBlue,
+          onPrimary: Colors.white,
         ),
+
         child: Text(answerText),
         onPressed: selectHandler,
       ),
+      width: double.infinity,
     );
   }
 }
